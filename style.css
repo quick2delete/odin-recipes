@@ -1,21 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg {
+  background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  opacity: 0.9;
+}
+
 body {
   font-family: "Helvetica", Sans-serif;
-  background-color: rgb(181, 187, 111);
+  /* background-color: rgb(181, 187, 111); */
+}
+
+.main-heading {
+  color: rgb(248, 244, 244);
 }
 
 h1 {
-  font-size: 40px;
+  color: rgb(31, 75, 14);
+  font-size: 50px;
+  margin: 60px auto;
+  height: 50px;
+  width: 400px;
+  text-align: center;
 }
+
 .landing-img {
-  height: auto;
-  width: 600px;
+  /* display: flex;
+  height: 500px;
+  width: 700px;
+  padding: 10px auto;
+  margin: 20px auto; */
 }
 
 .landing-list {
+  font-size: 25px;
+  height: auto;
+  width: 150px;
+  margin: 30px auto;
   font-size: 20px;
+  line-height: 2;
 }
 
-.landing-list li a {
-  color: rgb(107, 23, 23);
+.landing-list li a,
+.return-to-main {
+  font-size: 25px;
+  color: rgb(248, 244, 244);
   text-decoration: none;
+}
+
+/* recipes */
+
+.recipe-img {
+  display: flex;
+  height: 400px;
+  width: 600px;
+  padding: 10px auto;
+  margin: 20px auto;
+}
+
+.recipe-description,
+.recipe-ingredients,
+.recipe-steps {
+  height: auto;
+  width: 800px;
+  margin: 50px auto;
+  line-height: 1.6;
+}
+
+.return-to-main {
+  display: flex;
+  height: auto;
+  width: 100px;
+  margin: 10px auto;
 }
