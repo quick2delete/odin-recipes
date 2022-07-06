@@ -1,0 +1,21 @@
+body {
+  font-family: "Helvetica", Sans-serif;
+  background-color: rgb(181, 187, 111);
+}
+
+h1 {
+  font-size: 40px;
+}
+.landing-img {
+  height: auto;
+  width: 600px;
+}
+
+.landing-list {
+  font-size: 20px;
+}
+
+.landing-list li a {
+  color: rgb(107, 23, 23);
+  text-decoration: none;
+}
